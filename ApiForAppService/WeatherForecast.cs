@@ -2,6 +2,7 @@ namespace ApiForAppService
 {
     public class WeatherForecast
     {
+        public string NowaInformacja => "Jakis tekst";
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }
